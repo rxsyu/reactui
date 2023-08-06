@@ -6,14 +6,14 @@ export default class Taskbar extends Component {
     return (
       <div className="fixed w-full">
         <div className="flex flex-row w-full h-full items-center justify-between p-2 bg-zinc-900 text-zinc-100 text-sm">
-          <div className="flex flex-row items-center gap-4">
+          <div className="flex flex-row items-center gap-2">
             <Link
               to="/"
               className="p-2 font-bold transition-all hover:bg-zinc-700 hover:rounded-md"
             >
               React
             </Link>
-            <div className="flex flex-row gap-4 font-medium">
+            <div className="flex flex-row items-center gap-2 font-medium">
               <Link
                 to="/"
                 className="p-2 transition-all hover:bg-zinc-700 hover:rounded-md"
@@ -40,7 +40,7 @@ export default class Taskbar extends Component {
               </Link>
             </div>
           </div>
-          <div className="flex flex-row items-center gap-4 font-medium">
+          <div className="flex flex-row items-center gap-2 font-medium">
             <Link
               to="/"
               className="flex p-2 items-center transition-all hover:bg-zinc-700 hover:rounded-md"
