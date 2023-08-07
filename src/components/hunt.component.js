@@ -22,7 +22,7 @@ export default class Hunt extends Component {
 
   render() {
     return (
-      <div className="flex flex-row items-center justify-between gap-16 px-16 py-4 bg-zinc-900 bg-opacity-50 transition-all hover:bg-opacity-100 text-zinc-100 hover:ring-1 hover:ring-zinc-700 rounded-lg font-medium text-base">
+      <div className="flex flex-row items-center justify-between gap-8 px-16 py-4 bg-zinc-900 bg-opacity-50 transition-all hover:bg-opacity-100 text-zinc-100 hover:ring-1 hover:ring-zinc-700 rounded-lg font-medium text-base">
         <div className="flex flex-row gap-2">
           <span className="material-symbols-rounded">search</span>
           <input
@@ -30,7 +30,7 @@ export default class Hunt extends Component {
             placeholder="Search"
             value={this.state.query}
             onChange={this.handleInputChange}
-            className="outline-none border-none bg-transparent text-zinc-100 placeholder-zinc-300"
+            className="outline-none border-none w-64 bg-transparent text-zinc-100 placeholder-zinc-300"
           />
         </div>
         <button

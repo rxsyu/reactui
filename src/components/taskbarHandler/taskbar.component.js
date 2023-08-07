@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import BatteryStatus from "./status/batteryStatus.component";
 import DateTime from "./status/dateTime..component";
+import Applications from "./activity/applications.component";
+import View from "./activity/view.component";
+import Settings from "./activity/settings.component";
+import Device from "./activity/device.component";
 
 export default class Taskbar extends Component {
   render() {
@@ -19,31 +23,11 @@ export default class Taskbar extends Component {
               alt="react"
             />
           </Link>
-          <div className="flex flex-row items-center gap-2 font-medium">
-            <Link
-              to="/"
-              className="p-2 transition-all hover:bg-zinc-700 hover:rounded-lg"
-            >
-              Applications
-            </Link>
-            <Link
-              to="/"
-              className="p-2 transition-all hover:bg-zinc-700 hover:rounded-lg"
-            >
-              View
-            </Link>
-            <Link
-              to="/"
-              className="p-2 transition-all hover:bg-zinc-700 hover:rounded-lg"
-            >
-              Settings
-            </Link>
-            <Link
-              to="/"
-              className="p-2 transition-all hover:bg-zinc-700 hover:rounded-lg"
-            >
-              Device
-            </Link>
+          <div className="flex flex-row items-center gap-2 font-medium relative">
+            <Applications />
+            <View />
+            <Settings />
+            <Device />
           </div>
         </div>
         <div className="flex flex-row items-center gap-2 font-medium">
