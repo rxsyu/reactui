@@ -17,12 +17,7 @@ export default class Dock extends Component {
           alt="app"
         />
         <img src="./app/adobe-air-sdk.svg" width="40" height="40" alt="app" />
-        <img
-          src="./app/adobe-analytics.svg"
-          width="40"
-          height="40"
-          alt="app"
-        />
+        <img src="./app/adobe-analytics.svg" width="40" height="40" alt="app" />
         <img src="./app/adobe-capture.svg" width="40" height="40" alt="app" />
         <img
           src="./app/adobe-illustrator-draw.svg"
