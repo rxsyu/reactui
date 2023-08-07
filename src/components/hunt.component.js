@@ -5,11 +5,22 @@ export default class Hunt extends Component {
     super(props);
     this.state = {
       query: "",
+      placeholder: "Search now",
+      typingTimeout: null,
     };
   }
 
   handleInputChange = (event) => {
-    this.setState({ query: event.target.value });
+    const query = event.target.value;
+    if (this.state.typingTimeout) {
+      clearTimeout(this.state.typingTimeout);
+    }
+
+    const typingTimeout = setTimeout(() => {
+      this.setState({ placeholder: "Searched for " + query });
+    }, 500);
+
+    this.setState({ query, typingTimeout });
   };
 
   handleSearch = (event) => {
@@ -27,7 +38,7 @@ export default class Hunt extends Component {
           <span className="material-symbols-rounded">search</span>
           <input
             type="text"
-            placeholder="Search"
+            placeholder={this.state.placeholder}
             value={this.state.query}
             onChange={this.handleInputChange}
             className="outline-none border-none w-64 bg-transparent text-zinc-100 placeholder-zinc-300"
