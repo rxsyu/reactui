@@ -1,5 +1,5 @@
 import { Component } from "react";
-import Taskbar from "./taskbar.component";
+import Taskbar from "./taskbarHandler/taskbar.component";
 import Hunt from "./hunt.component";
 import Dock from "./dock.component";
 import Listen from "./listen.component";
