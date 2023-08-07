@@ -23,7 +23,7 @@ export default class Dock extends Component {
       "https://img.icons8.com/?size=154&id=117562&format=png",
       "https://img.icons8.com/?size=154&id=117557&format=png",
       "https://img.icons8.com/?size=154&id=63316&format=png",
-      "https://img.icons8.com/?size=154&id=13674&format=png"
+      "https://img.icons8.com/?size=154&id=13674&format=png",
     ];
 
     return (
@@ -40,7 +40,12 @@ export default class Dock extends Component {
             style={{
               transform:
                 this.state.hoveredImage === index ? "scale(1.25)" : "scale(1)",
-              transition: "transform 0.3s ease",
+              transition: "transform 0.3s ease, opacity 0.3s ease",
+              opacity:
+                this.state.hoveredImage === null ||
+                this.state.hoveredImage === index
+                  ? 1
+                  : 0.5,
             }}
           />
         ))}
