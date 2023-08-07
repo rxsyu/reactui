@@ -36,6 +36,30 @@ export default class Dock extends Component {
           height="40"
           alt="app"
         />
+        <img
+          src="./app/adobe-photoshop-sketch.svg"
+          width="40"
+          height="40"
+          alt="app"
+        />
+        <img
+          src="./app/adobe-premiere-elements.svg"
+          width="40"
+          height="40"
+          alt="app"
+        />
+        <img
+          src="./app/adobe-shockwave-player.svg"
+          width="40"
+          height="40"
+          alt="app"
+        />
+        <img
+          src="./app/adobe-spark-post.svg"
+          width="40"
+          height="40"
+          alt="app"
+        />
       </div>
     );
   }
