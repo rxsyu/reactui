@@ -15,7 +15,7 @@ export default class Listen extends Component {
             </div>
             <img
               className="w-16 h-16 rounded-lg"
-              src="https://i0.wp.com/colorcodedlyrics.com/wp-content/uploads/2017/07/MONSTA-X-NEWTON.jpg?resize=200%2C200&ssl=1"
+              src="https://upload.wikimedia.org/wikipedia/en/2/2b/Face_Down_Red_Jumpsuit.jpg"
               width="48"
               height="48"
               alt="album"

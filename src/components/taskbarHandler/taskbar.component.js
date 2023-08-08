@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import WiFiStatus from "./status/wiFiStatus.component";
 import BatteryStatus from "./status/batteryStatus.component";
 import DateTime from "./status/dateTime..component";
+import SoundStatus from "./status/soundStatus.component";
 import Applications from "./activity/applications.component";
 import View from "./activity/view.component";
 import Settings from "./activity/settings.component";
@@ -31,7 +33,9 @@ export default class Taskbar extends Component {
           </div>
         </div>
         <div className="flex flex-row items-center gap-2 font-medium">
+          <SoundStatus />
           <BatteryStatus />
+          <WiFiStatus />
           <DateTime />
         </div>
       </div>
