@@ -5,7 +5,7 @@ export default class Listen extends Component {
     return (
       <div className="fixed right-0 top-14">
         <div className="flex flex-col items-end p-2">
-          <div className="flex flex-row justify-between gap-8 w-[440px] bg-zinc-900 bg-opacity-50 transition-all hover:bg-opacity-100 text-zinc-100 hover:ring-1 hover:ring-zinc-700 px-16 py-8 rounded-lg">
+          <div className="flex flex-row items-center justify-between gap-8 w-[360px] bg-zinc-900 bg-opacity-50 transition-all hover:shadow-2xl hover:shadow:zinc-500 hover:bg-opacity-100 text-zinc-100 hover:ring-1 hover:ring-zinc-700 p-8 rounded-lg">
             <div className="flex flex-col gap-2">
               <label className="font-semibold text-sm">Face Down</label>
               <label className="font-medium text-xs">The Red Jumpsuit Apparatus</label>

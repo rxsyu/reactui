@@ -27,7 +27,7 @@ export default class Dock extends Component {
     ];
 
     return (
-      <div className="flex flex-row mb-2 hover:mb-4 gap-2 bg-zinc-900 bg-opacity-50 transition-all hover:bg-opacity-100 text-zinc-100 hover:ring-1 hover:ring-zinc-700 rounded-lg p-2 hover:scale-125">
+      <div className="flex flex-row mb-2 hover:mb-4 gap-2 bg-zinc-900 bg-opacity-50 transition-all hover:shadow-2xl hover:shadow:zinc-500 hover:bg-opacity-100 text-zinc-100 hover:ring-1 hover:ring-zinc-700 rounded-lg p-2 hover:scale-125">
         {appImages.map((src, index) => (
           <img
             key={index}
