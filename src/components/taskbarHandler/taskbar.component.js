@@ -12,7 +12,7 @@ import Device from "./activity/device.component";
 export default class Taskbar extends Component {
   render() {
     return (
-      <div className="flex flex-row w-full items-center justify-between p-2 bg-zinc-900 bg-opacity-50 transition-all hover:bg-opacity-100 text-zinc-100 text-sm">
+      <div className="flex flex-row w-full items-center justify-between p-0 bg-zinc-900 bg-opacity-50 transition-all hover:bg-opacity-100 text-zinc-100 text-sm">
         <div className="flex flex-row items-center gap-2">
           <Link
             to="/"

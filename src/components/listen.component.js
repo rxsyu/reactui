@@ -3,7 +3,7 @@ import { Component } from "react";
 export default class Listen extends Component {
   render() {
     return (
-      <div className="fixed right-0 top-14">
+      <div className="fixed right-0 top-10">
         <div className="flex flex-col items-end p-2">
           <div className="flex flex-row items-center justify-between gap-4 w-[320px] bg-zinc-900 bg-opacity-50 transition-all hover:shadow-2xl hover:shadow:zinc-500 hover:bg-opacity-100 text-zinc-100 hover:ring-1 hover:ring-zinc-700 p-4 rounded-lg">
             <div className="flex flex-col gap-2">

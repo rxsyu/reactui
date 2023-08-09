@@ -27,7 +27,7 @@ export default class View extends Component {
         </span>
         {isViewOpen && (
           <div
-            className="absolute left-0 top-14 p-2 bg-zinc-900 text-zinc-100 rounded-lg"
+            className="absolute left-0 top-10 p-2 bg-zinc-900 text-zinc-100 rounded-lg"
             style={{ minWidth: "150px" }}
           >
             <Link
