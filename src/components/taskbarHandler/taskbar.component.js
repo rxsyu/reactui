@@ -33,9 +33,9 @@ export default class Taskbar extends Component {
           </div>
         </div>
         <div className="flex flex-row items-center gap-2 font-medium">
-          <SoundStatus />
           <BatteryStatus />
           <WiFiStatus />
+          <SoundStatus />
           <DateTime />
         </div>
       </div>
