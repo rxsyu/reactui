@@ -33,7 +33,7 @@ export default class Hunt extends Component {
 
   render() {
     return (
-      <div className="flex flex-row items-center justify-between gap-8 p-4 bg-zinc-900 bg-opacity-50 transition-all hover:shadow-2xl hover:shadow:zinc-500 hover:bg-opacity-100 text-zinc-100 hover:ring-1 hover:ring-zinc-700 rounded-lg font-medium text-base">
+      <div className="flex flex-row items-center justify-between gap-8 p-4 hover:scale-125 bg-zinc-900 bg-opacity-50 transition-all hover:shadow-2xl hover:shadow:zinc-500 hover:bg-opacity-100 text-zinc-100 hover:ring-1 hover:ring-zinc-700 rounded-lg font-medium text-base">
         <div className="flex flex-row gap-2">
           <span className="material-symbols-rounded">search</span>
           <input

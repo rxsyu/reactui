@@ -18,12 +18,13 @@ export default class Dock extends Component {
 
   render() {
     const appImages = [
+      "https://img.icons8.com/?size=154&id=zfHRZ6i1Wg0U&format=png",
       "https://img.icons8.com/?size=154&id=117561&format=png",
       "https://img.icons8.com/?size=154&id=117559&format=png",
       "https://img.icons8.com/?size=154&id=117562&format=png",
       "https://img.icons8.com/?size=154&id=117557&format=png",
       "https://img.icons8.com/?size=154&id=63316&format=png",
-      "https://img.icons8.com/?size=154&id=13674&format=png",
+      "https://img.icons8.com/?size=154&id=13674&format=png"
     ];
 
     return (
